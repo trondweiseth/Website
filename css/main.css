@@ -1,0 +1,52 @@
+/*Master Styles*/
+body {
+    margin: 0px;
+    background: url('purplecity.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*Nav Styles*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: rgba(0,0,0,.2);
+    
+}
+
+.left-side {
+    display: flex;
+}
+
+.navbar > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: slategray;
+    text-decoration: none;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
